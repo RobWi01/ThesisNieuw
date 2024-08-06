@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\robwi\Documents\ThesisFinal\1-SpectralClustering_ACA_Components\fastMultWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\robwi\Documents\ThesisFinal\1-SpectralClustering_ACA_Components\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40EB24D3-E134-3271-A1C8-B4B09CFB173E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

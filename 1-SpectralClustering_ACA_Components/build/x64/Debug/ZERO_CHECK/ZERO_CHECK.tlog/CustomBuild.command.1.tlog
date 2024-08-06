@@ -1,0 +1,10 @@
+^C:\USERS\ROBWI\DOCUMENTS\THESISFINAL\1-SPECTRALCLUSTERING_ACA_COMPONENTS\BUILD\CMAKEFILES\035319AF6FD36D8B1E02D7AE3DD3605F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robwi/Documents/ThesisFinal/1-SpectralClustering_ACA_Components -BC:/Users/robwi/Documents/ThesisFinal/1-SpectralClustering_ACA_Components/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/robwi/Documents/ThesisFinal/1-SpectralClustering_ACA_Components/build/fastMultModule.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

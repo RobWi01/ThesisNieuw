@@ -1,0 +1,5 @@
+name: FaceAll
+K_nb: 7
+sim_threshold_within_skeletons: 0  # Example value, adjust as needed
+sim_threshold_between_skeletons_Tnew: 0.5  # Example value, adjust as needed
+
